@@ -1,25 +1,19 @@
 #!/usr/bin/env kotlin
 
-// usage: ./removeGhPackageVersion.main.kts template-kmp-library 1.1.3
+// usage: ./removeGhPackageVersion.main.kts mpesa-kmp-library 1.1.3
 
 @file:DependsOn("io.ktor:ktor-client-cio-jvm:1.6.8")
 @file:DependsOn("io.ktor:ktor-client-gson:1.6.8")
 @file:DependsOn("io.ktor:ktor-client-auth-jvm:1.6.8")
 
-import io.ktor.client.HttpClient
-import io.ktor.client.engine.cio.CIO
-import io.ktor.client.features.auth.Auth
-import io.ktor.client.features.auth.providers.BasicAuthCredentials
-import io.ktor.client.features.auth.providers.basic
-import io.ktor.client.features.defaultRequest
-import io.ktor.client.features.json.GsonSerializer
-import io.ktor.client.features.json.JsonFeature
-import io.ktor.client.request.delete
-import io.ktor.client.request.get
-import io.ktor.client.request.header
-import io.ktor.client.request.host
-import io.ktor.client.request.parameter
-import io.ktor.http.URLProtocol
+import io.ktor.client.*
+import io.ktor.client.engine.cio.*
+import io.ktor.client.features.*
+import io.ktor.client.features.auth.*
+import io.ktor.client.features.auth.providers.*
+import io.ktor.client.features.json.*
+import io.ktor.client.request.*
+import io.ktor.http.*
 import kotlinx.coroutines.runBlocking
 
 val targetRepo = args.getOrNull(0) ?: error("Target repository not specified")

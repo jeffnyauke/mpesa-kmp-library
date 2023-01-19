@@ -7,11 +7,10 @@ refreshVersions {
   extraArtifactVersionKeyRules(rootDir.resolve("versions.rules"))
 }
 
-rootProject.name = "template-kmp-library"
+rootProject.name = "mpesa-kmp-library"
 
 include(":test")
 
 include(
-  ":lib:template-kmp-library-core",
-  ":lib:template-kmp-library-dsl"
+  ":lib:mpesa-kmp-library-core"
 )
