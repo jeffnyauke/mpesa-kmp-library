@@ -14,9 +14,9 @@
 ![badge-nodejs](https://img.shields.io/badge/platform-jsNode-F8DB5D.svg?style=flat)
 ![badge-browser](https://img.shields.io/badge/platform-jsBrowser-F8DB5D.svg?style=flat)
 
-_A Kotlin Multiplatform SDK for the Safaricom M-Pesa Daraja 2.0 API._
+A Kotlin Multiplatform SDK for the Safaricom M-Pesa Daraja 2.0 API.
 
-## Features:
+## Supported features:
 
 - 🤳 Dynamic QR
 - 💶 STK Push - Lipa na M-Pesa Online API (M-PESA express)
@@ -48,7 +48,7 @@ val response = mpesa.stkPush(
 
 ## Adding to your project
 
-The library is available on Maven Central.
+The library is available on Maven Central. Latest version [![Maven Central](https://img.shields.io/maven-central/v/io.github.jeffnyauke/mpesa-kmp-library?color=blue)](https://search.maven.org/search?q=g:io.github.jeffnyauke.mpesa)
 
 ### Gradle
 
@@ -60,7 +60,7 @@ repositories {
 }
 ```
 
-To use the library in a single-platform project, add a dependency. Latest version [![Maven Central](https://img.shields.io/maven-central/v/io.github.jeffnyauke/mpesa-kmp-library?color=blue)](https://search.maven.org/search?q=g:io.github.jeffnyauke.mpesa)
+To use the library in a single-platform project, add a dependency.
 
 ```kotlin
 dependencies {
@@ -83,7 +83,7 @@ sourceSets {
 ## Contributing 🤝
 Please feel free to [open an issue](https://github.com/jeffnyauke/mpesa-kmp-library/issues/new/choose) if you have any questions or suggestions. Or participate in the [discussion](https://github.com/jeffnyauke/mpesa-kmp-library/discussions). If you want to contribute, please read the [contribution guidelines](https://github.com/jeffnyauke/mpesa-kmp-library/blob/main/CONTRIBUTING.md) for more information.
 
-## License 📄
+## License 📜
 
 **mpesa-kmp-library** is distributed under the terms of the Apache License (Version 2.0). See the
 [license](LICENSE) for more information.
