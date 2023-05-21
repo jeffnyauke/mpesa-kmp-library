@@ -30,6 +30,7 @@ import java.io.ByteArrayOutputStream
  */
 fun Project.configureAndroid() {
     configure<LibraryExtension> {
+        namespace = "io.github.jeffnyauke.mpesa"
         compileSdk = libs.version("gradle-android-compile-sdk").toInt()
         compileOptions {
             sourceCompatibility = JavaVersion.VERSION_17
