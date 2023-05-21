@@ -57,7 +57,6 @@ Add the Maven Central repository if it is not already there.
 ```kotlin
 repositories { 
   mavenCentral()
-    // ...  
 }
 ```
 
@@ -65,7 +64,6 @@ To use the library in a single-platform project, add a dependency. Latest versio
 
 ```kotlin
 dependencies {
-    // ...
     implementation("io.github.jeffnyauke:mpesa:<version>")
 }
 ```
@@ -76,7 +74,6 @@ In Kotlin Multiplatform projects, add the dependency to your `commonMain` source
 sourceSets {
   val commonMain by getting { 
     dependencies { 
-      // ...
       implementation("io.github.jeffnyauke:mpesa:<version>") 
     } 
   }
@@ -86,11 +83,11 @@ sourceSets {
 ## Contributing 🤝
 Please feel free to [open an issue](https://github.com/jeffnyauke/mpesa-kmp-library/issues/new/choose) if you have any questions or suggestions. Or participate in the [discussion](https://github.com/jeffnyauke/mpesa-kmp-library/discussions). If you want to contribute, please read the [contribution guidelines](https://github.com/jeffnyauke/mpesa-kmp-library/blob/main/CONTRIBUTING.md) for more information.
 
-## License
+## License 📄
 
 **mpesa-kmp-library** is distributed under the terms of the Apache License (Version 2.0). See the
 [license](LICENSE) for more information.
 
-## Trademarks
+## Trademarks ™️
 
 M-PESA is a trademark of Vodafone Group Plc. and is not affiliated with this project.
