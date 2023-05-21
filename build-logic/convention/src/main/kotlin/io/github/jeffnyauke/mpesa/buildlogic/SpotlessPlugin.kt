@@ -51,7 +51,7 @@ class SpotlessPlugin : Plugin<Project> {
             }
             format("xml") {
                 target("**/*.xml")
-                targetExclude("**/build/**/*.xml", "spotless/*.xml", ".idea/*.xml")
+                targetExclude("**/build/**/*.xml", "spotless/*.xml", ".idea/**/*.xml")
                 trimTrailingWhitespace()
                 endWithNewline()
                 // Look for the first XML tag that isn't a comment (<!--) or the xml declaration (<?xml)
