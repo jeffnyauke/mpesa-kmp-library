@@ -1,4 +1,3 @@
-# <img src="https://kotlinlang.org/assets/images/favicon.svg" height="23"/> Mpesa
 [![Build](https://github.com/jeffnyauke/mpesa-kmp-library/actions/workflows/check.yml/badge.svg)](https://github.com/jeffnyauke/mpesa-kmp-library/actions/workflows/check.yml)
 [![Kotlin](https://img.shields.io/badge/kotlin-1.8.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
@@ -83,7 +82,7 @@ sourceSets {
 ## Contributing 🤝
 Please feel free to [open an issue](https://github.com/jeffnyauke/mpesa-kmp-library/issues/new/choose) if you have any questions or suggestions. Or participate in the [discussion](https://github.com/jeffnyauke/mpesa-kmp-library/discussions). If you want to contribute, please read the [contribution guidelines](https://github.com/jeffnyauke/mpesa-kmp-library/blob/main/CONTRIBUTING.md) for more information.
 
-## License 📜
+## License 📃
 
 **mpesa-kmp-library** is distributed under the terms of the Apache License (Version 2.0). See the
 [license](LICENSE) for more information.
